@@ -1,0 +1,39 @@
+/* Стили для контейнера */
+.menu-container {
+    display: flex;
+    flex-direction: column; /* Кнопки будут вертикально */
+    justify-content: space-around; /* Равномерное распределение */
+    align-items: center; /* Выравнивание по центру */
+    width: 120px; /* Фиксированная ширина */
+    height: 100vh; /* На всю высоту экрана */
+    background-color: #3a8b7a;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Тень справа */
+    position: fixed;
+    top: 0;
+    right: 0; /* Прижимаем к правому краю */
+    z-index: 1000;
+}
+
+/* Стили для кнопок */
+.menu-button {
+    padding: 10px 20px; /* Поля внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    font-weight: 500; /* Жирность текста */
+    color: #000000; /* Цвет текста */
+    background-color: transparent; /* Прозрачный фон (кнопки будут видны через полоску) */
+    border: 2px solid #fff; /* Белая граница для контраста */
+    cursor: pointer; /* Изменяем курсор при наведении */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Анимация при наведении */
+}
+
+/* Стили при наведении на кнопку */
+.menu-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Немного белого при наведении */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Добавляем тень при наведении */
+}
+
+/* Стили при активном состоянии кнопки */
+.menu-button:active {
+    background-color: rgba(255, 255, 255, 0.4); /* Более светлый фон при нажатии */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3); /* Внутренняя тень при нажатии */
+}

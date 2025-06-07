@@ -1,0 +1,24 @@
+.esse-container {
+    max-width: 800px;
+    margin: 100px auto; /* Отступ сверху + авто по бокам для центрирования */
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.esse-container h2 {
+    color: #1a2980; /* Темно-синий заголовок в тон меню */
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.esse-container p {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
